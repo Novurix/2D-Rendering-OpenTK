@@ -50,6 +50,8 @@ namespace WindowTest
                 canTranslate = false;
             }
             //GL.Rotate(.1, 0, 0,.1);
+            
+            // RENDERING AND CREATING TRIANGLE
             GL.Begin(BeginMode.Triangles);
 
             GL.Color3(1.0, 0.0, 0.0);
